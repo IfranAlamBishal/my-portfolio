@@ -2,7 +2,7 @@
 const AcademinInfo = () => {
     return (
         <div>
-            <h2 className=" text-center text-2xl font-semibold">My Academic Background</h2>
+            <h2 className=" text-center text-2xl font-semibold py-5">My Academic Background</h2>
 
             <div className=" space-y-5">
                 <div className="card bg-white  shadow-xl">

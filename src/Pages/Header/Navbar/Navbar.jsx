@@ -1,9 +1,13 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { SharedContext } from "../../../Shared/SharedProvider";
 
 const Navbar = () => {
 
+    const { scrollToContact } = useContext(SharedContext);
+
     const navLinks = <>
-        <li><Link className=' text-base font-semibold'>Find Me</Link></li>
+        <li><Link onClick={scrollToContact} className=' text-base font-semibold'>Find Me</Link></li>
         <li><NavLink to='/projects' className=' text-base font-semibold'>Projects</NavLink></li>
     </>
 

@@ -2,7 +2,7 @@
 const Experience = () => {
     return (
         <div>
-            <h2 className=" text-center text-2xl font-semibold">My Experience</h2>
+            <h2 className=" text-center text-2xl font-semibold py-5">My Experience</h2>
 
             <div className=" space-y-5">
                 <div className="card bg-white shadow-xl">
