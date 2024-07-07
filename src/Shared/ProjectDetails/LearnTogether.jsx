@@ -6,14 +6,14 @@ const LearnTogether = () => {
             <div className="card card-compact bg-blue-50 mx-auto shadow-xl">
                 <figure>
                     <img
-                        src='https://i.ibb.co/Kztz8Xj/unity-serve.png' />
+                        src='https://i.ibb.co/NrRnBnd/learn-together.png' />
                 </figure>
                 <div className="card-body px-3 mb-5">
                     <h2 className="card-title text-2xl md:text-4xl font-bold">Learn Together</h2>
                     <p>"Learn Together" is a Collaborative Study Platform. This platform connects students and tutors. Students can book study sessions and join classes, while tutors can create and manage sessions. </p>
                     <div className=" my-5">
                         <h4 className=" text-lg font-semibold">Some key feature of this website :</h4>
-                        <ul>
+                        <ul className=" list-disc pl-10">
                             <li>User account</li>
                             <li>User Dashboard </li>
                             <li>Social Login</li>
@@ -22,8 +22,8 @@ const LearnTogether = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className=" text-lg font-semibold">Used Technologies :</h4>
-                        <ul className=" font-bold">
+                        <h4 className=" text-lg font-semibold ">Used Technologies :</h4>
+                        <ul className=" font-bold list-disc pl-10">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>

@@ -13,7 +13,7 @@ const UnityServe = () => {
                     <p>"Unity Serve" is a Volunteer Management Platform, where an user can post for events as an organizer or can request to join an event as a volunteer. </p>
                     <div className=" my-5">
                         <h4 className=" text-lg font-semibold">Some key feature of this website :</h4>
-                        <ul>
+                        <ul className=" list-disc pl-10">
                             <li>User account</li>
                             <li>User can post events and ask volunteers to join</li>
                             <li>User can request to join event as a volunteer</li>
@@ -21,8 +21,8 @@ const UnityServe = () => {
                         </ul>
                     </div>
                     <div>
-                        <h4 className=" text-lg font-semibold">Used Technologies :</h4>
-                        <ul className=" font-bold">
+                        <h4 className=" text-lg font-semibold ">Used Technologies :</h4>
+                        <ul className=" font-bold list-disc pl-10">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
