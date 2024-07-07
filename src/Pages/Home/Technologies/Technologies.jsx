@@ -27,8 +27,8 @@ const Technologies = () => {
                 </ul>
                 <ul className=" flex gap-3 justify-center">
                     <li><img src={react} alt="react" className=" w-10 h-10 md:w-20 md:h-20" /></li>
-                    <li><img src={mongodb} alt="mongodb" className=" w-10 h-10 md:w-20 md:h-20" /></li>
-                    <li><img src={express} alt="express" className=" bg-white p-0.5 w-10 h-10 md:w-20 md:h-20" /></li>
+                    <li><img src={mongodb} alt="mongodb" className=" bg-white p-0.5 rounded-full w-10 h-10 md:w-20 md:h-20" /></li>
+                    <li><img src={express} alt="express" className=" bg-white p-0.5 rounded-full w-10 h-10 md:w-20 md:h-20" /></li>
                     <li><img src={node} alt="node" className=" w-10 h-10 md:w-20 md:h-20" /></li>
                 </ul>
             </div>
