@@ -8,11 +8,15 @@ const DirectEmail = () => {
     const form = useRef();
 
     const { register, handleSubmit } = useForm();
-    const onSubmit = data => {
-        console.log(data)
 
-        emailjs.sendForm('service_ebtfk5y', 'template_2mq25sp', form.current ,{
-        publicKey: 'DDljNtrLPZ85Gw2zI',
+    const onSubmit = data => {
+        
+        const serviceID = 'service_ebtfk5y';
+        const templateID = 'template_2mq25sp';
+        const publicKey = 'DDljNtrLPZ85Gw2zI';
+
+        emailjs.sendForm(serviceID, templateID, form.current ,{
+        publicKey: publicKey,
       })
       .then(() => {
             Swal.fire({
