@@ -1,22 +1,39 @@
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 
 const DirectEmail = () => {
 
+    const form = useRef();
+
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
+        console.log(data)
 
-        console.log(data);
-
-        Swal.fire({
-            title: "Sent!",
-            text: "Your mail sent successfully.",
-            icon: "success"
-          });
+        emailjs.sendForm('service_ebtfk5y', 'template_2mq25sp', form.current ,{
+        publicKey: 'DDljNtrLPZ85Gw2zI',
+      })
+      .then(() => {
+            Swal.fire({
+                title: "Sent!",
+                text: "Your mail sent successfully.",
+                icon: "success"
+              });
+        },
+        (error) => {
+            console.log(error.massage);
+            Swal.fire({
+                title: "Error!",
+                text: error.text,
+                icon: "error"
+              });
+        },
+      );
     }
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className=" bg-white p-5 rounded-2xl lg:w-96 space-y-3">
+        <form ref={form} onSubmit={handleSubmit(onSubmit)} className=" bg-white p-5 rounded-2xl lg:w-96 space-y-3">
 
             <div className="form-control">
                 <label className="label">
@@ -32,9 +49,9 @@ const DirectEmail = () => {
             </div>
             <div className="form-control">
                 <label className="label">
-                    <span className="label-text text-xl font-semibold">Massage</span>
+                    <span className="label-text text-xl font-semibold">Message</span>
                 </label>
-                <textarea type="text" {...register("massage")} placeholder="type your massage here" className="textarea textarea-bordered textarea-lg w-full max-w-xs" required />
+                <textarea type="text" {...register("message")} placeholder="type your message here" className="textarea textarea-bordered textarea-lg w-full max-w-xs" required />
             </div>
 
             <div className=" py-10">
