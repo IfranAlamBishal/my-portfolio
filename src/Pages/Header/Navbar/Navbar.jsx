@@ -7,7 +7,7 @@ const Navbar = () => {
     const { scrollToContact } = useContext(SharedContext);
 
     const navLinks = <>
-        <li><Link onClick={scrollToContact} className=' text-base font-semibold'>Find Me</Link></li>
+        <li><Link to='/' onClick={scrollToContact} className=' text-base font-semibold'>Find Me</Link></li>
         <li><NavLink to='/projects' className=' text-base font-semibold'>Projects</NavLink></li>
     </>
 
