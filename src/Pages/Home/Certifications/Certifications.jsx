@@ -1,4 +1,5 @@
-import SectionHeaders from "../../../../Shared/SectionHeaders/SectionHeaders";
+import SectionHeaders from "../../../Shared/SectionHeaders/SectionHeaders";
+
 
 const Certifications = () => {
     return (

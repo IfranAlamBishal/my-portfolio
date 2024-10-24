@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import Projects from "../Pages/Projects/Projects";
 import UnityServe from "../Shared/ProjectDetails/UnityServe";
 import LearnTogether from "../Shared/ProjectDetails/LearnTogether";
+import NexTour from "../Shared/ProjectDetails/NexTour";
 
 export const router = createBrowserRouter([
     {
@@ -21,12 +22,16 @@ export const router = createBrowserRouter([
                 element: <Projects></Projects>
             },
             {
-                path: "/projeccts/UnityServe",
+                path: "/projects/UnityServe",
                 element: <UnityServe></UnityServe>
             },
             {
-                path: "/projeccts/LearnTogether",
+                path: "/projects/LearnTogether",
                 element: <LearnTogether></LearnTogether>
+            },
+            {
+                path: "/projects/NexTour",
+                element: <NexTour/>
             }
         ]
     },
