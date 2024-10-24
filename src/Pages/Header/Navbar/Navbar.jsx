@@ -11,11 +11,11 @@ const Navbar = () => {
         <li><NavLink to='/projects' className=' text-base font-semibold'>Projects</NavLink></li>
     </>
 
-    const resumeDownload = "https://drive.google.com/uc?export=download&id=1tOBDqcW2vfw8ZB5d9nIVhGimIcqePZmh"
+    const resumeDownload = "https://drive.google.com/uc?export=download&id=1bRwsS4KPCsR_GXdxVQ7SPV3SRDVTY69u"
 
     return (
         <div className=" ">
-            <div className="navbar bg-white bg-opacity-50 p-5 top-5 fixed z-50">
+            <div className="navbar bg-white bg-opacity-80 p-5 top-2 fixed z-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
