@@ -23,11 +23,11 @@ const Slides = () => {
             }}
             pagination={true}
             modules={[EffectCoverflow, Pagination]}
-            className="mySwiper"
+            className="mySwiper h-[632px] lg:h-[720px]"
         >
 
             <SwiperSlide>
-                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl">
+                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl min-h-full">
                     <figure>
                         <img
                             src='https://i.ibb.co.com/2YJmZhk/NexTour.png' />
@@ -43,14 +43,14 @@ const Slides = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl">
+                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl min-h-full">
                     <figure>
                         <img
                             src='https://i.ibb.co/Kztz8Xj/unity-serve.png' />
                     </figure>
                     <div className="card-body px-3 mb-5">
                         <h2 className="card-title">Unity Serve</h2>
-                        <p>"Unity Serve" is a Volunteer Management Platform, where an user can post for events as an organizer or can request to join an event as a volunteer. </p>
+                        <p>Unity Serve is a dedicated Volunteer Management Platform designed to connect organizers with enthusiastic volunteers. Through Unity Serve, organizers can create and post event opportunities, making it easy to reach a broad base of potential volunteers. Volunteers can explore available events and directly request to join those that match their interests or align with causes they care about. The platform fosters a collaborative environment, where organizers and volunteers alike can contribute to meaningful community work. Unity Serve also supports event planning by allowing organizers to manage participants effectively.</p>
                         <div className="card-actions justify-end my-4">
                             <Link to='/projects/UnityServe' className="btn btn-primary">View Details</Link>
                         </div>
@@ -59,14 +59,15 @@ const Slides = () => {
             </SwiperSlide>
 
             <SwiperSlide>
-                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl">
+                <div className="card card-compact bg-blue-50 lg:w-[1000px] mx-auto shadow-xl min-h-full">
                     <figure>
                         <img
                             src='https://i.ibb.co/NrRnBnd/learn-together.png' />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Learn Together</h2>
-                        <p>"Learn Together" is a Collaborative Study Platform. This platform connects students and tutors. Students can book study sessions and join classes, while tutors can create and manage sessions.</p>
+                        <p>"Learn Together" is a cutting-edge Collaborative Study Platform that connects students with tutors in an interactive and engaging environment. The platform allows students to explore available study sessions, book classes, and join live sessions based on their academic needs and schedules.
+                        For tutors, Learn Together offers powerful tools to create, manage, and customize their sessions. Tutors can schedule classes, monitor student progress, and adjust session content to provide personalized learning experiences.</p>
                         <div className="card-actions justify-end my-4">
                             <Link to='/projects/LearnTogether' className="btn btn-primary">View Details</Link>
                         </div>

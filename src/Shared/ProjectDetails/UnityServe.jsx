@@ -10,7 +10,7 @@ const UnityServe = () => {
                 </figure>
                 <div className="card-body px-3 mb-5">
                     <h2 className="card-title text-2xl font-bold">Unity Serve</h2>
-                    <p>"Unity Serve" is a Volunteer Management Platform, where an user can post for events as an organizer or can request to join an event as a volunteer. </p>
+                    <p>Unity Serve is a dedicated Volunteer Management Platform designed to connect organizers with enthusiastic volunteers. Through Unity Serve, organizers can create and post event opportunities, making it easy to reach a broad base of potential volunteers. Volunteers can explore available events and directly request to join those that match their interests or align with causes they care about. The platform fosters a collaborative environment, where organizers and volunteers alike can contribute to meaningful community work. Unity Serve also supports event planning by allowing organizers to manage participants effectively. </p>
                     <div className=" my-5">
                         <h4 className=" text-lg font-semibold">Some key feature of this website :</h4>
                         <ul className=" list-disc pl-10">

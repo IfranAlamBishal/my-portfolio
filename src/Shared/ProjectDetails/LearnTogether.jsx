@@ -10,7 +10,8 @@ const LearnTogether = () => {
                 </figure>
                 <div className="card-body px-3 mb-5">
                     <h2 className="card-title text-2xl md:text-4xl font-bold">Learn Together</h2>
-                    <p>"Learn Together" is a Collaborative Study Platform. This platform connects students and tutors. Students can book study sessions and join classes, while tutors can create and manage sessions. </p>
+                    <p>"Learn Together" is a cutting-edge Collaborative Study Platform that connects students with tutors in an interactive and engaging environment. The platform allows students to explore available study sessions, book classes, and join live sessions based on their academic needs and schedules.
+                    For tutors, Learn Together offers powerful tools to create, manage, and customize their sessions. Tutors can schedule classes, monitor student progress, and adjust session content to provide personalized learning experiences.</p>
                     <div className=" my-5">
                         <h4 className=" text-lg font-semibold">Some key feature of this website :</h4>
                         <ul className=" list-disc pl-10">
