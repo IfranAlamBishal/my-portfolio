@@ -16,7 +16,7 @@ const Certifications = () => {
                 <div className="card bg-white max-w-3xl shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title">Complete Web Development Course With Jhankar Mahbub</h2>
-                        <p className=" text-lg"><span className=" font-semibold">By: </span>Programming Hero</p>
+                        <p className=" text-lg">Programming Hero</p>
                         <p className=" text-base"><span className=" font-semibold">Issued on: </span>July,2024</p>
                         <figure>
                             <img
