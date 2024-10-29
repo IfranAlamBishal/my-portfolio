@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><NavLink to='/projects' className=' text-base font-semibold'>Projects</NavLink></li>
     </>
 
-    const resumeDownload = "https://drive.google.com/uc?export=download&id=1bRwsS4KPCsR_GXdxVQ7SPV3SRDVTY69u"
+    const resumeDownload = "https://drive.google.com/uc?export=download&id=1kViCxyR1fe6wg6U34TpyTL9LgXSFMks4"
 
     return (
         <div className=" ">
