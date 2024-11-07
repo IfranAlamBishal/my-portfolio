@@ -10,6 +10,8 @@ This is my Personal Portfolio Website showcasing my skills, projects, and experi
 - *React-router-dom*
 
 
+## Installation
+
 **Clone the repository:**
    ```bash
    git clone https://github.com/IfranAlamBishal/my-portfolio.git
