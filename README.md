@@ -25,3 +25,8 @@ This is my Personal Portfolio Website showcasing my skills, projects, and experi
    ```bash
    npm run dev
    ```
+
+
+## License
+
+This project is licensed under the MIT License.
